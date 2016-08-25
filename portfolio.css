@@ -1,0 +1,112 @@
+
+body{
+    background: -webkit-linear-gradient(#eeeeee,#7b8993);
+    background: -moz-linear-gradient(#eeeeee,#7b8993);
+    background: -o-linear-gradient(#eeeeee,#7b8993);
+    background: -ms-linear-gradient(#eeeeee,#7b8993);
+    background: linear-gradient(#eeeeee,#7b8993);
+}
+hr{
+    border: 0;
+    border-top: 1px solid #3d464d;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.inside{
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 1px solid #adadad;
+}
+.name{
+    font-size: 3em;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-animation: hue 60s infinite linear;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    -ms-animation: hue 60s infinite linear;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    -o-animation: hue 60s infinite linear;
+    background-clip: text;
+    text-fill-color: transparent;
+    animation: hue 60s infinite linear;
+}
+.noMargin{
+    margin: 0px;
+}
+.color{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+        -moz-filter: hue-rotate(0deg);
+        -ms-filter: hue-rotate(0deg);
+        -o-filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+        -moz-filter: hue-rotate(-360deg);
+        -ms-filter: hue-rotate(-360deg);
+        -o-filter: hue-rotate(-360deg);
+        filter: hue-rotate(-360deg);
+    }
+}
+.project:hover{
+    text-decoration: none;
+}
+.joinDiv{
+    overflow: hidden;
+}
+.join{
+    -webkit-transition:1s ease-in-out;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+}
+.join:hover{
+    -webkit-transform:scale(1.1) rotate(10deg);
+    transform: scale(1.1) rotate(10deg);
+    -ms-transform: scale(1.1) rotate(10deg);
+    -o-transform: scale(1.1) rotate(10deg);
+    -moz-transform: scale(1.1) rotate(10deg);
+    -webkit-transition:1s ease-in-out;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2);
+    -moz-filter: brightness(1.2);
+    -ms-filter: brightness(1.2);
+    -o-filter: brightness(1.2);
+}
+.profile{
+    -webkit-transition:1s ease-in-out;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+}
+.profile:hover{
+    -webkit-transition:1s ease-in-out;
+    transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -webkit-filter: brightness(1.15);
+    filter: brightness(1.15);
+    -moz-filter: brightness(1.15);
+    -ms-filter: brightness(1.15);
+    -o-filter: brightness(1.15);
+}
